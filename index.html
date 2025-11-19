@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dakkata Madhu • Portfolio</title>
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- FIXED SOCIAL ICONS -->
+<div class="social-fixed">
+  <a href="https://www.linkedin.com/in/dakkata-madhu/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://github.com/madhureddy7716?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
+  <a href="https://instagram.com/YOUR_USERNAME" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</div>
+
+<canvas id="bgCanvas"></canvas>
+
+<header>
+  <div class="container">
+    <a href="#" class="brand">Madhu</a>
+    <button class="nav-toggle">☰</button>
+
+    <ul class="nav-links">
+      <li><a class="nav-link" href="#home">Home</a></li>
+      <li><a class="nav-link" href="#about">About</a></li>
+      <li><a class="nav-link" href="#skills">Skills</a></li>
+      <li><a class="nav-link" href="#projects">Projects</a></li>
+      <li><a class="nav-link" href="#certificates">Certificates</a></li>
+      <li><a class="nav-link" href="#education">Education</a></li>
+      <li><a class="nav-link" href="#experience">Experience</a></li>
+      <li><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="home" class="hero section reveal">
+    <div class="container hero-grid">
+
+      <div class="hero-text">
+        <h1>Hey, I'm Dakkata Madhu</h1>
+        <p class="sub">Full Stack Python Developer • Web Developer • Backend Specialist</p>
+
+        <div class="cta">
+          <a href="#contact" class="btn primary">Hire Me</a>
+          <button id="openResume" class="btn ghost">View Resume</button>
+          <button id="openCV" class="btn ghost">View CV</button>
+
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="2.jpg" alt="Madhu">
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="section reveal container">
+    <h2>About</h2>
+    <p>I am a dedicated and detail-oriented developer specializing in full-stack web development, backend engineering, and machine learning. I build clean, scalable backend systems using Python, Django, SQL, and integrate them with modern UI frameworks to deliver fast and reliable products.
+
+My technical background includes Java Full Stack development, Python-based ML pipelines, and full web development using HTML, CSS, JavaScript, Flask, and RESTful APIs. During my internships, I contributed to real-world applications such as a recipe-discovery platform and an ML-enhanced chatbot, focusing on feature development, API integration, data processing, and performance improvements.
+
+I approach every project with clarity, clean code, and a results-driven mindset. My goal is to deliver practical, high-quality solutions that create real value for users and organizations.</p>
+  </section>
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="section reveal container">
+    <h2>TECHNICAL SKILLS</h2>
+
+    <h2>Programming:</h2>
+    <div class="card-grid">
+      <div class="skill-card">
+        <div class="row"><span>Python</span><span>85%</span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>JavaScript</span><span>75%</span></div>
+        <div class="bar"><span style="width:70%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>HTML</span><span>80%</span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>CSS</span><span>85%</span></div>
+        <div class="bar"><span style="width:85%"></span></div>
+      </div>
+    </div>
+
+    <h2>Frameworks:</h2>
+    <div class="card-grid">
+      <div class="skill-card">
+        <div class="row"><span>React.js</span><span>80%</span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>Bootstrap</span><span>80%</span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>Django</span><span>75%</span></div>
+        <div class="bar"><span style="width:75%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>Flask</span><span>80%</span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+    </div>
+
+    <h2>Databases:</h2>
+    <div class="card-grid">
+      <div class="skill-card">
+        <div class="row"><span>SQL</span><span>75%</span></div>
+        <div class="bar"><span style="width:75%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>MongoDB</span><span>85%</span></div>
+        <div class="bar"><span style="width:85%"></span></div>
+      </div>
+    </div>
+
+    <h2>Tools:</h2>
+    <div class="card-grid">
+      <div class="skill-card">
+        <div class="row"><span>Git</span><span>90%</span></div>
+        <div class="bar"><span style="width:90%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>GitHub</span><span>80%</span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="row"><span>REST API</span><span>85%</span></div>
+        <div class="bar"><span style="width:85%"></span></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section reveal container">
+    <h2>Projects</h2>
+
+    <div class="swiper projectSwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images\12.png" alt="">
+            <h3>Agro-Farm</h3>
+            <p> Built a web-based platform to support farm modernization and crop optimization.
+ Developed the front end using HTML, CSS, JavaScript, React.js, and Bootstrap.
+ Designed a clean, responsive UI with smooth user interactions for better usability.</p>
+            <a class="btn ghost" href="https://github.com/madhureddy7716/Agro-Farm.git">Code</a>
+            <a class="btn primary" href="https://madhureddy7716.github.io/Agro-Farm/">Live</a>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images\13.png" alt="">
+            <h3>Home Café Food</h3>
+            <p>A fast recipe finder focused on discovering different curry varieties.
+
+
+Delivers clear ingredients and step-by-step cooking instructions.
+
+
+Built with a simple, user-friendly interface for quick access to recipes.
+
+.</p>
+            <a class="btn ghost" href="https://github.com/madhureddy7716/home-cafe-food.git">Code</a>
+            <a class="btn primary" href="https://madhureddy7716.github.io/home-cafe-food/">Live</a>
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images\11.png" alt="">
+            <h3>food delivery </h3>
+            <p>A fast, React-powered food delivery web app using Redux and Firebase, built with a clean UI, smooth routing, and scalable architecture. Focused on speed, usability, and real-world deployment.”</p>
+            <a class="btn ghost" href="https://github.com/madhureddy7716/quick-food-delivery">Code</a>
+            <a class="btn primary" href="https://react-quick-food.firebaseapp.com/">Live</a>
+          </article>
+        </div>
+
+       
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+
+    </div>
+    
+  </section>
+
+
+
+  <!-- CERTIFICATES -->
+ <section id="projects" class="section reveal container">
+    <h2>CERTIFICATES</h2>
+
+    <div class="swiper projectSwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/1.jpeg" alt="">
+            <h3>Java Full Stack Development Internship (Elite Solutions)</h3>
+            <p>Completed an 8-week internship focused on Java full-stack development, gaining exposure to real project workflows, backend–frontend integration, and industry development practices.</p>
+            
+          </article>
+        </div><div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/3.jpeg" alt="">
+            <h3>Certification — Prompt Engineering with GitHub Copilot (Microsoft/Simplilearn)
+</h3>
+            <p>Learned how to write effective prompts and use Copilot to speed up coding, debugging, and workflow execution. Shows I can use AI tools to build faster and work smarter.</p>
+            
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/4.jpeg" alt="">
+            <h3>AWS Solutions Architecture Job Simulation (Forage)</h3>
+            <p>Completed tasks in designing simple, scalable hosting architecture. Gained hands-on experience in planning cloud solutions that focus on reliability and scalability.</p>
+           
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/5.jpeg" alt="">
+            <h3>Cyber Security (Simplilearn SkillUp)</h3>
+            <p>Learned core cybersecurity concepts, threat basics, and essential protection practices. Built a strong foundation for understanding system and data security..</p>
+            
+          </article>
+        </div>
+
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/6.jpeg" alt="">
+            <h3>Full Stack Java Internship (SkillDzire – APSCHE/AICTE)</h3>
+            <p>Completed a short-term internship focused on Java full-stack development, covering frontend, backend, and project implementation using industry-aligned practices.</p>
+           
+          </article>
+        </div> 
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/9.png" alt="">
+            <h3>Web Development Internship (Fauget Institute of Technology)</h3>
+            <p>Completed a 90-day internship focused on core web development, gaining practical experience in building and improving web interfaces and project deliverables.</p>
+           
+          </article>
+        </div>  <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/10.png" alt="">
+            <h3>Web Developer Fellowship Program (Udemy / WebDevOpen)</h3>
+            <p>Completed a web development fellowship involving capstone projects and 30+ hands-on assignments, gaining strong practical exposure to real-world web development tasks.</p>
+           
+          </article>
+        </div> 
+        <div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/7.jpeg" alt="">
+            <h3>Gemini in Google Drive (Google Cloud – Simplilearn SkillUp)</h3>
+            <p>Learned how to use Google’s Gemini AI inside Google Drive to automate tasks, generate content, and improve productivity with AI-driven workflows.</p>
+           
+          </article>
+        </div>
+<div class="swiper-slide">
+          <article class="project-card">
+            <img src="images/8.jpeg" alt="">
+            <h3>Blockchain (Cyfrin Updraft)</h3>
+            <p>Gained foundational knowledge of blockchain concepts, smart contracts, and decentralized systems, along with the essential mechanics behind how blockchain works.</p>
+           
+          </article>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+
+    </div>
+  </section>
+
+
+  <!-- EDUCATION -->
+  <section id="education" class="section reveal container">
+    <h2>Education</h2>
+    <ul class="timeline">
+      <li><div class="dot"></div><div><h4>Andhra University (2025)</h4>B.Tech CSE – 6.9 GPA</div></li>
+      <li><div class="dot"></div><div><h4>Yalamarty Junior College (2021)</h4>Intermediate – 5.1 GPA</div></li>
+      <li><div class="dot"></div><div><h4>Swarna Bharathi EM School (2019)</h4>SSC – 6.7 GPA</div></li>
+    </ul>
+  </section>
+
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section reveal container">
+    <h2>Experience</h2>
+    <ul class="timeline">
+      <li><div class="dot"></div><div><h4>Java Full Stack • Elite Solutions</h4>Intern (May 2024 – Jul 2024)<br>
+      Built a recipe-discovery web app focused on identifying curry ingredients and suggesting preparation steps.<br>
+
+Developed the frontend using HTML, CSS, JavaScript and backend APIs using Java & Spring Boot.<br>
+
+Implemented ingredient search, recipe filtering, and a clean UI for quick food discovery.<br>
+
+Collaborated with senior developers to improve API performance and deployment workflow.</div></li>
+      <li><div class="dot"></div><div><h4>Machine Learning Intern • Appleton Innovations</h4>Developed a Python-based chatbot and integrated new ML-driven features to improve accuracy and response quality.<br>
+
+Used NumPy, scikit-learn, and basic NLP techniques to build intent detection and message-processing pipelines.<br>
+
+Improved model performance through data cleaning, feature engineering, and quick experimentation.<br>
+
+Worked closely with the engineering team to test, refine, and deploy the updated chatbot modules.</div></li>
+    </ul>
+  </section>
+
+
+  <!-- CONTACT -->
+  <form class="contact" action="https://formsubmit.co/madhudakkata4021@gmail.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+
+  <label>Name
+    <input name="name" type="text" placeholder="Your Name" required>
+  </label>
+
+  <label>Email
+    <input name="email" type="email" placeholder="Your Email" required>
+  </label>
+
+  <label class="full">Message
+    <textarea name="message" rows="5" placeholder="Message" required></textarea>
+  </label>
+
+  <button class="btn primary full" type="submit">Send</button>
+</form>
+
+
+</main>
+
+<footer class="footer">
+  © <span id="year"></span> Dakkata Madhu
+</footer>
+
+
+<!-- RESUME MODAL -->
+<div id="resumeModal" class="resume-modal">
+  <div class="resume-modal-content">
+    <button class="resume-close">&times;</button>
+
+    <div class="resume-toolbar">
+      <button id="zoomOut">−</button>
+      <button id="zoomIn">+</button>
+      <a id="resumeDownload" href="resume.pdf" download>Download</a>
+      <button id="openFullscreen">Full</button>
+    </div>
+
+    <div class="resume-frame-wrap">
+      <iframe src="resume.pdf" class="resume-frame"></iframe>
+    </div>
+  </div>
+</div>
+<!-- CV MODAL -->
+<div id="cvModal" class="resume-modal">
+  <div class="resume-modal-content">
+    <button class="resume-close cv-close">&times;</button>
+
+    <div class="resume-toolbar">
+      <button id="cvZoomOut">−</button>
+      <button id="cvZoomIn">+</button>
+      <a id="cvDownload" href="cv.pdf" download>Download</a>
+      <button id="openCVFullscreen">Full</button>
+    </div>
+
+    <div class="resume-frame-wrap">
+      <iframe src="cv.pdf" class="resume-frame" id="cvFrame"></iframe>
+    </div>
+  </div>
+</div>
+
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script>
+function sendMail(e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const message = document.getElementById("message").value;
+
+  const subject = encodeURIComponent("Portfolio Contact Form");
+  const body =
+    encodeURIComponent(
+`Name: ${name}
+Email: ${email}
+Message:
+${message}`
+    );
+
+  window.location.href =
+    `mailto:madhudakkata4021@gmail.com?subject=${subject}&body=${body}`;
+}
+</script>
+</body>
+</html>
