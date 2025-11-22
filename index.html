@@ -360,26 +360,31 @@ Worked closely with the engineering team to test, refine, and deploy the updated
 
 
   <!-- CONTACT -->
-    <section id="contact" class="section reveal container">
-  <form class="contact" action="https://formsubmit.co/madhudakkata4021@gmail.com" method="POST" >
-  <input type="hidden" name="_captcha" value="false">
+  <section id="contact" class="section reveal container">
+  <form class="contact" action="https://formsubmit.co/madhudakkata4021@gmail.com" method="POST">
 
-  <label>Name
-    <input name="name" type="text" placeholder="Your Name" required>
-  </label>
+    <!-- Disable Captcha -->
+    <input type="hidden" name="_captcha" value="false">
 
-  <label>Email
-    <input name="email" type="email" placeholder="Your Email" required>
-  </label>
+    <!-- Redirect back to YOUR GitHub portfolio homepage -->
+    <input type="hidden" name="_next" value="https://madhureddy7716.github.io/">
 
-  <label class="full">Message
-    <textarea name="message" rows="5" placeholder="Message" required></textarea>
-  </label>
+    <label>Name
+      <input name="name" type="text" placeholder="Your Name" required>
+    </label>
 
-  <button class="btn primary full" type="submit">Send</button>
-</form>
+    <label>Email
+      <input name="email" type="email" placeholder="Your Email" required>
+    </label>
 
+    <label class="full">Message
+      <textarea name="message" rows="5" placeholder="Message" required></textarea>
+    </label>
+
+    <button class="btn primary full" type="submit">Send</button>
+  </form>
 </section>
+
 </main>
 
 <footer class="footer">
